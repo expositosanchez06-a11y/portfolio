@@ -1,28 +1,47 @@
-# Introducción a Bootstrap 5 · Ejercicios (2.º DAW)
+# Portfolio personal - Manuel Expósito
 
-Esqueleto de trabajo para hacer los ejercicios **paso a paso en clase**.
-Cada archivo trae comentarios `PASO N` que indican dónde escribir el código.
+## Sobre el proyecto
 
-## Cómo abrirlo
+Este es mi portfolio personal, realizado como parte de la actividad de Bootstrap 5.
 
-1. Descomprime el zip y abre la carpeta `bootstrap-intro` en **Visual Studio Code**.
-2. Instala la extensión recomendada **Live Server**.
-3. Clic derecho sobre `index.html` → **Open with Live Server**.
+La idea es tener una página donde pueda presentarme, enseñar mis conocimientos, mostrar algunos trabajos que he realizado y compartir mi formación y experiencia.
 
-> Bootstrap se carga por CDN: necesitas conexión a Internet.
+## Tecnologías utilizadas
 
-## Carpetas
+Para realizar este proyecto he utilizado:
 
-| Carpeta | Ejercicio |
-|---|---|
-| `ej01-plantilla` | 1 · Plantilla inicial (¡aquí añades tú Bootstrap!) |
-| `ej02-presentacion` | 2 · Tarjeta de presentación |
-| `ej03-grid` | 3 · Laboratorio de rejilla |
-| `ej04-08-codelab-academia` | 4 a 8 · Web de CodeLab Academia (un único archivo que vamos completando) |
-| `ej09-portfolio` | 9 · Reto final: **tu portfolio profesional** (lee `ENUNCIADO.md`) |
+- HTML5 para crear la estructura de la página.
+- CSS3 para algunos estilos propios.
+- Bootstrap 5 para el diseño y la adaptación a diferentes pantallas.
+- JavaScript para la validación del formulario.
+- Bootstrap Icons para los iconos.
 
-## Consejos
+## Contenido de la página
 
-- Guarda a menudo (Ctrl + S): Live Server recarga solo.
-- Usa las DevTools (F12) y el modo responsive (Ctrl + Shift + M).
-- Documentación: https://getbootstrap.com/docs/5.3 · Ejemplos: https://getbootstrap.com/docs/5.3/examples
+El portfolio está dividido en varios apartados:
+
+- **Sobre mí:** una pequeña presentación personal.
+- **Habilidades:** tecnologías y conocimientos que he ido aprendiendo.
+- **Proyectos:** algunos ejercicios y prácticas que he realizado durante mis estudios.
+- **Formación y experiencia:** mis estudios y las prácticas realizadas.
+- **Contacto:** un formulario para poder contactar conmigo.
+
+## Proyectos mostrados
+
+Actualmente aparecen tres trabajos:
+
+1. Portfolio personal.
+2. Ejercicios de JavaScript y DOM.
+3. Entorno de desarrollo con Docker.
+
+## Cómo ver el proyecto
+
+El portfolio está publicado mediante GitHub Pages y se puede visitar desde este enlace:
+
+Este es el link para ver el portafolios (https://expositosanchez06-a11y.github.io/portfolio/)
+
+## Autor
+
+Manuel Expósito
+
+Estudiante de segundo curso de Desarrollo de Aplicaciones Web (DAW).
