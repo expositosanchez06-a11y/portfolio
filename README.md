@@ -45,3 +45,16 @@ Este es el link para ver el portafolios (https://expositosanchez06-a11y.github.i
 Manuel Expósito
 
 Estudiante de segundo curso de Desarrollo de Aplicaciones Web (DAW).
+
+## Accesibilidad y contraste
+
+He comprobado los colores de mi página con la herramienta WebAIM Contrast Checker para asegurarme de que se puedan leer bien.
+
+He realizado varias pruebas y estos son los resultados:
+
+- El texto general con el color `#252525` sobre fondo blanco `#FFFFFF` tiene un contraste de 15,32:1.
+- Los botones y el círculo azul, con texto blanco sobre el azul `#2457A7`, tienen un contraste de 7:1.
+- El color utilizado para destacar el foco del teclado `#B45309` tiene un contraste de 5,02:1 sobre blanco.
+- Los bordes de las tarjetas y los campos del formulario, con el color `#767676` sobre blanco, tienen un contraste de 4,54:1.
+
+Después de hacer estas comprobaciones, he visto que los colores cumplen los niveles de contraste necesarios. También he añadido mejoras para poder navegar por la página utilizando el teclado.

@@ -1,17 +1,102 @@
-/* ============================================================
-   Estilos propios del portfolio (marca personal)
-   Usa el mínimo CSS posible: primero intenta con clases de Bootstrap.
-   ============================================================ */
 
-/* Ejemplo: cambia el color principal de Bootstrap por el tuyo
+/* ==================================================
+   ESTILOS PROPIOS DEL PORTFOLIO
+   ================================================== */
+
+/* Colores principales de mi portfolio */
 :root {
-  --bs-primary: #0d6efd;
-  --bs-primary-rgb: 13, 110, 253;
+  --bs-primary: #2457a7;
+  --bs-primary-rgb: 36, 87, 167;
 }
-*/
 
-/* Desplazamiento suave al pulsar los enlaces del menú */
-html { scroll-behavior: smooth; }
+/* Desplazamiento suave al pulsar los enlaces */
+html {
+  scroll-behavior: smooth;
+}
 
-/* Que el título de cada sección no quede tapado por la navbar fija */
-section { scroll-margin-top: 70px; }
+/* Evitar que los títulos queden tapados por el menú */
+section {
+  scroll-margin-top: 5rem;
+}
+
+/* Estilo general de la página */
+body {
+  font-family: Arial, sans-serif;
+  color: #252525;
+}
+
+/* Círculo con mis iniciales */
+.avatar-iniciales {
+  width: 7.5rem;
+  height: 7.5rem;
+  font-size: 2.5rem;
+}
+
+/* Mejorar el aspecto de las tarjetas */
+.card {
+  border: 1px solid #767676;
+  border-radius: 0.625rem;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-0.25rem);
+}
+
+/* Imágenes de los proyectos */
+.card-img-top {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+
+/* Separación de los títulos */
+h2 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* Enlaces */
+a {
+  text-underline-offset: 0.2rem;
+}
+
+/* Que se vea el foco al navegar con teclado */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #b45309;
+  outline-offset: 3px;
+}
+
+/* Enlace para saltar directamente al contenido */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 10px;
+  background-color: #ffffff;
+  color: #252525;
+  padding: 10px;
+  z-index: 2000;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Mejorar el contraste de los campos del formulario */
+.form-control {
+  border-color: #767676;
+}
+
+/* Respetar a las personas que prefieren menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .card {
+    transition: none;
+  }
+}
