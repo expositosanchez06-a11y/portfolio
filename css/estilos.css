@@ -91,7 +91,8 @@ textarea:focus-visible {
 }
 
 /* Mejorar el contraste de los enlaces de contacto */
-#contacto a {
+#contacto a,
+footer a {
   color: #084298;
 }
 
