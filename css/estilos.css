@@ -90,6 +90,11 @@ textarea:focus-visible {
   border-color: #767676;
 }
 
+/* Mejorar el contraste de los enlaces de contacto */
+#contacto a {
+  color: #084298;
+}
+
 /* Respetar a las personas que prefieren menos movimiento */
 @media (prefers-reduced-motion: reduce) {
   html {
