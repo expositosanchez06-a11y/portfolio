@@ -3,13 +3,13 @@
    ESTILOS PROPIOS DEL PORTFOLIO
    ================================================== */
 
-/* Colores principales de mi portfolio */
+/* Colores principales */
 :root {
   --bs-primary: #2457a7;
   --bs-primary-rgb: 36, 87, 167;
 }
 
-/* Desplazamiento suave al pulsar los enlaces */
+/* Desplazamiento suave */
 html {
   scroll-behavior: smooth;
 }
@@ -19,20 +19,25 @@ section {
   scroll-margin-top: 5rem;
 }
 
-/* Estilo general de la página */
+/* Estilo general */
 body {
   font-family: Arial, sans-serif;
   color: #252525;
 }
 
-/* Círculo con mis iniciales */
-.avatar-iniciales {
-  width: 7.5rem;
-  height: 7.5rem;
-  font-size: 2.5rem;
+/* Fotografía de presentación */
+.foto-perfil {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #2457a7;
 }
 
-/* Mejorar el aspecto de las tarjetas */
+/* Tarjetas */
 .card {
   border: 1px solid #767676;
   border-radius: 0.625rem;
@@ -50,7 +55,7 @@ body {
   object-fit: cover;
 }
 
-/* Separación de los títulos */
+/* Títulos */
 h2 {
   font-weight: bold;
   margin-bottom: 1.5rem;
@@ -61,7 +66,12 @@ a {
   text-underline-offset: 0.2rem;
 }
 
-/* Que se vea el foco al navegar con teclado */
+/* Color de los enlaces de contacto */
+#contacto .text-center a {
+  color: #084298;
+}
+
+/* Foco visible al navegar con teclado */
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
@@ -70,7 +80,7 @@ textarea:focus-visible {
   outline-offset: 3px;
 }
 
-/* Enlace para saltar directamente al contenido */
+/* Enlace para saltar al contenido */
 .skip-link {
   position: absolute;
   top: -100px;
@@ -85,17 +95,20 @@ textarea:focus-visible {
   top: 10px;
 }
 
-/* Mejorar el contraste de los campos del formulario */
+/* Contraste de los campos del formulario */
 .form-control {
   border-color: #767676;
 }
 
-/* Mejorar el contraste de los enlaces de contacto */
-#contacto .text-center a {
-  color: #084298;
+/* Adaptación a móviles */
+@media (max-width: 576px) {
+  .foto-perfil {
+    width: 7rem;
+    height: 7rem;
+  }
 }
 
-/* Respetar a las personas que prefieren menos movimiento */
+/* Respetar la preferencia de reducir movimiento */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
