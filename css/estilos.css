@@ -27,14 +27,15 @@ body {
 
 /* Fotografía de presentación */
 .foto-perfil {
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   object-fit: cover;
-  object-position: center 25%;
+  object-position: center 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 3px solid #2457a7;
+  border-radius: 50%;
 }
 
 /* Tarjetas */
